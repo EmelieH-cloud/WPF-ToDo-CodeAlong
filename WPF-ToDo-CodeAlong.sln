@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-ToDo-CodeAlong", "WPF-ToDo-CodeAlong.csproj", "{3770E792-E21E-4400-86B0-B462E2A8B00D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3770E792-E21E-4400-86B0-B462E2A8B00D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3770E792-E21E-4400-86B0-B462E2A8B00D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3770E792-E21E-4400-86B0-B462E2A8B00D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3770E792-E21E-4400-86B0-B462E2A8B00D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85120CF7-41E0-41A4-B23F-8A317806863F}
+	EndGlobalSection
+EndGlobal

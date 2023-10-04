@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPF_ToDo_CodeAlong.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_ToDo_CodeAlong"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="29*"/>
+            <ColumnDefinition Width="171*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txttask" Grid.Column="1" HorizontalAlignment="Left" Margin="122,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" Height="33"/>
+        <Label Grid.Column="1" Content="To Do: " HorizontalAlignment="Left" Margin="46,63,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbprior" Grid.Column="1" HorizontalAlignment="Left" Margin="122,131,0,0" VerticalAlignment="Top" Width="120"/>
+        <ListView x:Name="MyListView" Height="300" Width="250" Grid.Column="1" Margin="320,56,114,78"/>
+        <Button x:Name="btnAdd" Grid.Column="1" Content="Add to do!" HorizontalAlignment="Left" Margin="138,189,0,0" VerticalAlignment="Top" Height="46" Width="88" RenderTransformOrigin="0.234,0.449" Click="Button_Click"/>
+    </Grid>
+</Window>
